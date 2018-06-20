@@ -2,16 +2,30 @@ nav{
     display: flex;
     height: 2em;
     justify-content: flex-start;
-  
     background-color: black;
     color: white;
 }
 
-.box{
-    display: flex;
+.flexbox{
+    display: flex;  
     height: 8em;
-    justify-content: space-around;
-    align-items: center;
-    background-color: tan;
-}
+    background-color: lightgray;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+ .boxes{
+     display: flex;
+     height: 10em;
+       
+ }
+
+ .boxes div{
+     padding: 1em;    
+ }
+
+ .large{
+     flex-grow: 1;
+ }
+
 
