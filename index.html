@@ -7,30 +7,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flexbox Lab</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
         <nav>
-            <div>Flexbox Article Layout</div>
-        </nav>
+            <div>Flexbox Article Layout Recreated</div>
+            </nav>
+            <button type="button" class="btn btn-primary">Primary Button</button>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+        
     </header>
 
 
     <div class="flexbox">
-        <div class="one">Resoponsive Flexbox Article Listing</div>
+        <div class="one">
+            <h1>Flexbox Article Listing</h1>
+            Flexbox is an amazingly powerful tool! Took a design layout as a baseline and changed it up slightly.
+        </div>
     </div>
 
+
+
     <div class="boxes">
-        <div class="large">The Flexbox Layout (Flexible Box) module aims at providing a more efficient way to lay out, align and distribute
-            space among items in a container, even when their size is unknown and/or dynamic (thus the word "flex"). The
-            main idea behind the flex layout is to give the container the ability to alter its items' width/height (and order)
-            to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). A flex
-            container expands items to fill available free space, or shrinks them to prevent overflow. Most importantly,
-            the flexbox layout is direction-agnostic as opposed to the regular layouts (block which is vertically-based and
-            inline which is horizontally-based). While those work well for pages, they lack flexibility (no pun intended)
-            to support large or complex applications (especially when it comes to orientation changing, resizing, stretching,
-            shrinking, etc.).
+        <div class="large">
+            <h4>
+                <b>Guide to Flexbox</b>
+            </h4>
+
+            The Flexbox Layout (Flexible Box) module aims at providing a more efficient way to lay out, align and distribute space among
+            items in a container, even when their size is unknown and/or dynamic (thus the word "flex"). The main idea behind
+            the flex layout is to give the container the ability to alter its items' width/height (and order) to best fill
+            the available space (mostly to accommodate to all kind of display devices and screen sizes). A flex container
+            expands items to fill available free space, or shrinks them to prevent overflow. Most importantly, the flexbox
+            layout is direction-agnostic as opposed to the regular layouts (block which is vertically-based and inline which
+            is horizontally-based). While those work well for pages, they lack flexibility (no pun intended) to support large
+            or complex applications (especially when it comes to orientation changing, resizing, stretching, shrinking, etc.).
             <br>
             <br>
             <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
@@ -38,14 +51,22 @@
             </a>
 
         </div>
-        <div class="two"> Why Flexbox? For a long time, the only reliable cross browser-compatible tools available for creating CSS layouts
-            were things like floats and positioning. These are fine and they work, but in some ways they are also rather
-            limiting and frustrating. The following simple layout requirements are either difficult or impossible to achieve
-            with such tools, in any kind of convenient, flexible way: Vertically centering a block of content inside its
-            parent. Making all the children of a container take up an equal amount of the available width/height, regardless
-            of how much width/height is available. Making all columns in a multiple column layout adopt the same height even
-            if they contain a different amount of content. As you'll see in subsequent sections, flexbox makes a lot of layout
-            tasks much easier. Let's dig in!
+
+
+        <div class="two">
+
+            <h4>
+                <b>Why Flexbox?</b>
+            </h4>
+
+            Why Flexbox? For a long time, the only reliable cross browser-compatible tools available for creating CSS layouts were things
+            like floats and positioning. These are fine and they work, but in some ways they are also rather limiting and
+            frustrating. The following simple layout requirements are either difficult or impossible to achieve with such
+            tools, in any kind of convenient, flexible way: Vertically centering a block of content inside its parent. Making
+            all the children of a container take up an equal amount of the available width/height, regardless of how much
+            width/height is available. Making all columns in a multiple column layout adopt the same height even if they
+            contain a different amount of content. As you'll see in subsequent sections, flexbox makes a lot of layout tasks
+            much easier. Let's dig in!
 
             <br>
             <br>
@@ -55,14 +76,18 @@
 
         </div>
 
-        <div class="two">The “Flexible Box” or “Flexbox” layout mode offers an alternative to Floats for defining the overall appearance of
-            a web page. Whereas floats only let us horizontally position our boxes, flexbox gives us complete control over
-            the alignment, direction, order, and size of our boxes. The web is currently undergoing a major transition, so
-            a little discussion around the state of the industry is warranted. For the last decade or so, floats were the
-            sole option for laying out a complex web page. As a result, they’re well supported even in legacy browsers, and
-            developers have used them to build millions of web pages. This means you’ll inevitably run into floats during
-            your web development career (so the previous chapter wasn’t a total waste).
+        <div class="two">
+            <h4>
+                <b>Alternative to Floats</b>
+            </h4>
 
+            The “Flexible Box” or “Flexbox” layout mode offers an alternative to Floats for defining the overall appearance of a web
+            page. Whereas floats only let us horizontally position our boxes, flexbox gives us complete control over the
+            alignment, direction, order, and size of our boxes. The web is currently undergoing a major transition, so a
+            little discussion around the state of the industry is warranted. For the last decade or so, floats were the sole
+            option for laying out a complex web page. As a result, they’re well supported even in legacy browsers, and developers
+            have used them to build millions of web pages. This means you’ll inevitably run into floats during your web development
+            career (so the previous chapter wasn’t a total waste).
             <br>
             <br>
             <a href="https://internetingishard.com/html-and-css/flexbox/">

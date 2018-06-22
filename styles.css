@@ -2,17 +2,26 @@ nav{
     display: flex;
     height: 2em;
     justify-content: flex-start;
-    background-color: black;
+    align-items: center;
+    background-color: lightblue;
     color: white;
+    font-family: calibri;
+    padding: 10px;
+}
+
+.button div{
+    font-family: calibri;
+    display: flex;
+    justify-content: center;
 }
 
 .flexbox{
-    display: flex;  
+    font-family: calibri;
+    display: flex;
+    justify-content: center;
     height: 8em;
     background-color: lightgray;
-    flex-direction: row;
-    justify-content: center;
-  }
+ }
 
  .boxes{
      display: flex;
@@ -21,11 +30,8 @@ nav{
  }
 
  .boxes div{
-     padding: 1em;    
+     font-family: calibri;
+     text-align: justify;
+     text-justify: inter-word;
+     padding: 50px;    
  }
-
- .large{
-     flex-grow: 1;
- }
-
-
